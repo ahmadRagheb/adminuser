@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include adminuser *.css
+recursive-include adminuser *.csv
+recursive-include adminuser *.html
+recursive-include adminuser *.ico
+recursive-include adminuser *.js
+recursive-include adminuser *.json
+recursive-include adminuser *.md
+recursive-include adminuser *.png
+recursive-include adminuser *.py
+recursive-include adminuser *.svg
+recursive-include adminuser *.txt
+recursive-exclude adminuser *.pyc
